@@ -3,24 +3,33 @@
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
 }
-.picwrapper {
+main {
 	background: #555;
   	max-width: 960px;
   	margin: 0 auto;
+  	padding: 40px;
 }
-
-.picbox {
+.picwrapper {
 	width: 300px;
-  	height: 265px;
-  	padding: 10px;
-  	margin: 0;
+	position: relative;
+	height: 243px;
+	overflow: initial;
+	border: 10px solid #fff;
+	border-radius: 1%;
+	background: transparent; 
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4) inset, -5px -5px 5px rgba(0,0,0,0.4) inset;
+}
+.picbox {
+	height: auto;
+	margin: 0;
+	padding: 4px;
 }
 .picbox>img {
-	width: 300px;
-  	max-height: 225px;
+	width: 290px;
 }
-.picbox>img:hover {
-	border: 10px solid #fff;
-	max-width: 280px;
-	max-height: 265px;
+figcaption.pictitle {
+	background: #fff;
+	padding: 4px;
+	width: 101%;
+	margin-left: -5px;
 }
