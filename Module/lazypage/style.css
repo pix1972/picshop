@@ -1,0 +1,46 @@
+
+main {
+	width: 960px;
+	margin: 0 auto;
+}
+.item {
+	-moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2), -2px -2px 5px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2), -2px -2px 5px rgba(0,0,0,0.2);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2), -2px -2px 5px rgba(0,0,0,0.2);
+  	display: inline-block;
+  	padding: 40px 40px 60px 40px;
+  	margin-right: 2.3795%;
+}
+.img:last-child {
+	margin-right: 0;
+}
+figure.item-img {
+  margin: 0;
+}
+.item-img img {
+  max-height: 200px;
+  width: auto;
+}
+.item-text h4 {
+  margin: 1em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.item-text p {
+  margin: 0.5em 0;
+}
+.item-price {
+  position: relative;
+  width: 100%;
+}
+.item-price p {
+  position: absolute;
+  right: 0;
+  font-size: 1.4em;
+  bottom: -2.5em;
+}
+.item-price p:before {
+	content: '€';
+  font-size: 0.8em;
+  margin-right: -4px;
+}

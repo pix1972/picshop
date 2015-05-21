@@ -4,25 +4,24 @@
 	box-sizing: content-box;
 }
 main {
-	background: #555;
+	background: #ccc;
   	max-width: 960px;
   	margin: 0 auto;
   	padding: 40px;
 }
 .picwrapper {
 	width: 300px;
-	position: relative;
 	height: 243px;
-	overflow: initial;
 	border: 10px solid #fff;
-	border-radius: 1%;
-	background: transparent; 
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.4) inset, -5px -5px 5px rgba(0,0,0,0.4) inset;
+	
 }
 .picbox {
 	height: auto;
 	margin: 0;
 	padding: 4px;
+	border-radius: 1%;
+	background: transparent; 
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4) inset, -5px -5px 5px rgba(0,0,0,0.4) inset;
 }
 .picbox>img {
 	width: 290px;
