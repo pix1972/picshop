@@ -1,0 +1,16 @@
+$site = array(
+	'startseite' = array(
+		'url' 					=> 'index',
+		'title'					=> 'Startseite',
+		'background' 		=> '',
+		'basistemplate'	=> '',
+		'description'		=> 'Über diese Seite', // max 255 Zeichen
+		'index'					=> 'index', //noindex,
+		'follow'				=> 'follow', //nofollow,
+		'mainnav'				=> true,
+		'subnav'				=> false
+	)
+);
+
+echo json_encode($site);
+//http://www.suchmaschinen-online.de/optimierung/meta.htm
